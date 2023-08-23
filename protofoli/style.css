@@ -1,0 +1,65 @@
+body {
+	overflow: hidden;
+	background-color: black;
+}
+.container {
+
+}
+.texts {
+	color: white;
+	font-size: 90px;
+	font-family: 'Special Elite', cursive;
+	position: absolute;
+	top: 26%;
+	left: 50%;
+	text-shadow: 0 0 10px snow,0 0 11px #cec7c7;
+}
+.who {
+	margin-left: 23px;
+	font-size: 50px;
+	position: absolute;
+	top: 95%;
+}
+img {
+	width: 25%;
+	height: 55%;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: transform(-50px, -50px);
+	top: 20%;
+	left: 20%;
+}
+.links {
+	position: absolute;
+	top: 62%;
+	left: 53%;
+	letter-spacing: 9px;
+	font-size: 40px;
+	color: whitesmoke;	
+}
+@media (max-width: 768px) {
+	img {
+		width: 70%;
+		height: 40%;
+		top: 15%;
+		left: 17%;
+	}
+	.texts {
+		top: 57%;
+		left: 26%;
+		font-size: 60px;	
+	}
+	.who {
+		font-size: 33px;
+		right: 17px;
+	}
+	.links {
+		font-size: 30px;
+		top: 80%;
+		left: 31%;
+	}
+
+} 
+

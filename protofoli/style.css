@@ -15,9 +15,8 @@ body {
 	text-shadow: 0 0 10px snow,0 0 11px #cec7c7;
 }
 .who {
-	margin-left: 23px;
 	font-size: 50px;
-	position: absolute;
+	position: ;
 	top: 95%;
 }
 img {
@@ -44,21 +43,26 @@ img {
 		width: 70%;
 		height: 40%;
 		top: 15%;
-		left: 17%;
+		left: 16%;
 	}
 	.texts {
 		top: 57%;
-		left: 26%;
+		left: 25%;
 		font-size: 60px;	
-	}
-	.who {
-		font-size: 33px;
-		right: 17px;
 	}
 	.links {
 		font-size: 30px;
 		top: 80%;
 		left: 31%;
+	}
+	.who .auto-type {
+		top: 30px;
+		font-size: 25px;
+	}
+	.who {
+		position: relative;
+		bottom: 28px;
+		left: 20px;
 	}
 
 } 

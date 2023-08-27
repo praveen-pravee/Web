@@ -2,8 +2,15 @@ body {
 	overflow: hidden;
 	background-color: black;
 }
+#particles-js 
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: black;
+}
 .container {
-
+	translate: tranform(-50px, -50px);
 }
 .texts {
 	color: white;
@@ -35,9 +42,18 @@ img {
 	top: 62%;
 	left: 53%;
 	letter-spacing: 9px;
-	font-size: 40px;
-	color: whitesmoke;	
+	font-size: 40px;	
 }
+a, i {
+	color: white;
+}
+a:hover {
+	text-shadow: 0 0 50px snow,
+				0 0 50px snow,
+				0 0 50px snow,
+				0 0 50px snow;
+}
+
 @media (max-width: 768px) {
 	img {
 		width: 70%;
@@ -64,6 +80,4 @@ img {
 		bottom: 28px;
 		left: 20px;
 	}
-
 } 
-

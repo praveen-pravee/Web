@@ -1,0 +1,46 @@
+body {
+	overflow: hidden;
+	background-color: #0a0d0f;	
+	color: white;
+}
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+header {
+	font-size: 50px;
+	position: relative;
+	top: 70px;
+	left: 70px;
+}
+aside {
+	font-size: 25px;
+	margin: 75px 70px;
+	color: black;
+	width: 17%;
+	background-color: ghostwhite;
+}
+p {
+	font-size: 19px;
+	position: relative;
+	left: 71px;
+}
+span:hover {
+	background-color: ghostwhite;
+	color: black;
+}
+pre {
+	font-size: 13px;
+	position: relative;
+	left: 70px;
+}
+img {
+	position: relative;
+	display: flex;
+	padding: 15px;
+	top: 50%;
+	left: 5%;
+	width: 2%;
+	height: auto;
+}
